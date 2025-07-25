@@ -1,0 +1,6 @@
+# Force HTTPS redirect
+http://garticphone.org/* https://garticphone.org/:splat 301!
+http://www.garticphone.org/* https://garticphone.org/:splat 301!
+
+# Redirect www to non-www
+https://www.garticphone.org/* https://garticphone.org/:splat 301!
